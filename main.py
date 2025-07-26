@@ -176,3 +176,11 @@ for i, v in enumerate(scores):
 plt.show()
 
 print(f"\nBest performing model: {names[scores.index(max(scores))]} (R² = {max(scores):.4f})")
+
+
+#| Model | Best For | Optimizer | Why That Optimizer |
+#|-------|----------|-----------|-------------------|
+#| Linear Regression | Linear relationships, interpretable results | OLS | Fast, exact, mathematically optimal |
+#| Ridge Regression | High-dimensional data, correlated features | L2 regularization | Prevents overfitting, handles multicollinearity |
+#| Decision Trees | Non-linear relationships, categorical features | Greedy algorithm | Simple, fast, captures complex patterns |
+#| Random Forest | Complex data, noisy data, robust predictions | Bagging | Reduces overfitting, averages multiple models |
