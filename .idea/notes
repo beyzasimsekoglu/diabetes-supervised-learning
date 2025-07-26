@@ -14,3 +14,44 @@ In machine learning, this means finding the best parameters for your model.
 
 Understanding the Quadratic Function
 Mathematical Form:
+J(θ) = 0.5 × (2θ - 1)²
+
+What This Means:
+
+θ (theta) is your model parameter (like the slope in linear regression)
+J(θ) is the cost/objective function
+The function has a minimum at θ = 0.5
+
+Why Quadratic Functions?
+They're smooth and differentiable
+They have a single minimum
+They're easy to optimize
+Many ML loss functions (like MSE) are quadratic
+
+ Key Concepts Explained
+
+A. Objective Function (J(θ))
+Purpose: Measures how "bad" your model is
+Goal: Minimize this function
+In ML: Usually MSE, MAE, or other loss functions
+
+B. Gradient (dJ/dθ)
+Purpose: Tells you which direction to move
+Direction: Points toward the minimum
+Magnitude: How steep the function is
+
+C. Learning Rate (α)
+Purpose: Controls how big steps you take
+Too small: Slow convergence
+Too large: Might overshoot the minimum
+
+θ_new = θ_old - α × gradient
+
+Why This Matters for Machine Learning
+
+In your diabetes project:
+θ represents your model parameters (coefficients)
+J(θ) is your loss function (MSE)
+Gradient descent finds the best coefficients automatically
+
+
