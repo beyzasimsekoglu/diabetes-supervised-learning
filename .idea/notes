@@ -1,0 +1,16 @@
+When to Use Each Model
+
+| Model | Best For | Optimizer | Why That Optimizer |
+|-------|----------|-----------|-------------------|
+| Linear Regression | Linear relationships, interpretable results | OLS | Fast, exact, mathematically optimal |
+| Ridge Regression | High-dimensional data, correlated features | L2 regularization | Prevents overfitting, handles multicollinearity |
+| Decision Trees | Non-linear relationships, categorical features | Greedy algorithm | Simple, fast, captures complex patterns |
+| Random Forest | Complex data, noisy data, robust predictions | Bagging | Reduces overfitting, averages multiple models |
+
+What is an Optimizer?
+
+An optimizer is an algorithm that finds the minimum of a function (the objective/loss function). 
+In machine learning, this means finding the best parameters for your model.
+
+Understanding the Quadratic Function
+Mathematical Form:
