@@ -1,5 +1,6 @@
 When to Use Each Model
 
+
 | Model | Best For | Optimizer | Why That Optimizer |
 |-------|----------|-----------|-------------------|
 | Linear Regression | Linear relationships, interpretable results | OLS | Fast, exact, mathematically optimal |
