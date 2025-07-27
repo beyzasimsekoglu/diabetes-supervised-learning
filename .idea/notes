@@ -53,6 +53,7 @@ Why This Matters for Machine Learning
 In your diabetes project:
 θ represents your model parameters (coefficients)
 J(θ) is your loss function (MSE)
+
 Gradient descent finds the best coefficients automatically
 
 
