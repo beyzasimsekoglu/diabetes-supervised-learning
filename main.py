@@ -179,7 +179,6 @@ print(f"\nBest performing model: {names[scores.index(max(scores))]} (R² = {max(
 
 
 #| Model | Best For | Optimizer | Why That Optimizer |
-#|-------|----------|-----------|-------------------|
 #| Linear Regression | Linear relationships, interpretable results | OLS | Fast, exact, mathematically optimal |
 #| Ridge Regression | High-dimensional data, correlated features | L2 regularization | Prevents overfitting, handles multicollinearity |
 #| Decision Trees | Non-linear relationships, categorical features | Greedy algorithm | Simple, fast, captures complex patterns |
