@@ -8,7 +8,7 @@ When to Use Each Model
 | Decision Trees | Non-linear relationships, categorical features | Greedy algorithm | Simple, fast, captures complex patterns |
 | Random Forest | Complex data, noisy data, robust predictions | Bagging | Reduces overfitting, averages multiple models |
 
-What is an Optimizer?
+ What is an Optimizer?
 
 An optimizer is an algorithm that finds the minimum of a function (the objective/loss function). 
 In machine learning, this means finding the best parameters for your model.
