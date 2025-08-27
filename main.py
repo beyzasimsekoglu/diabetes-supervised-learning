@@ -55,6 +55,7 @@ plt.legend(['Model', 'Prediction', 'Initial patients', 'New patients'])
 plt.show()
 
 #. What’s Happening Statistically?
+
 #The optimizer (in LinearRegression) finds the line that minimizes the MSE on the training data.
 #You can measure the quality of the fit by comparing predictions to actual values (using MSE, MAE, etc.).
 #Visualizing helps you see how well the model generalizes to new data.
